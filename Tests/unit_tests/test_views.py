@@ -2,6 +2,7 @@ import pytest
 import unittest
 import os
 import sys
+from flask import Flask
 
 sys.path.append(os.path.join(os.getcwd(), 'Application'))
 from python_webapp_flask import app
